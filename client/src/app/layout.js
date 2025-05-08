@@ -1,5 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
 
 export const metadata = {
   title: "SoftSell",
@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
-  );
+  )
 }
