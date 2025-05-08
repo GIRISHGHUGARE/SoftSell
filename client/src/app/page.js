@@ -5,6 +5,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import { TbLicense } from "react-icons/tb";
+import ChatWidget from './components/ChatWidget';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <ChatWidget />
       <HeroSection />
       <HowItWorks />
       <WhyChooseUs />

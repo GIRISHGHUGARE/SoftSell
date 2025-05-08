@@ -47,8 +47,6 @@ export default function HowItWorks() {
                             {step.title}
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 text-sm">{step.description}</p>
-
-                        {/* Connector arrows */}
                         {index < steps.length - 1 && (
                             <div className="hidden lg:block absolute top-1/2 right-[-35px] transform -translate-y-1/2 text-2xl text-gray-400 dark:text-gray-600">
                                 <FaArrowRight className="text-2xl" />
